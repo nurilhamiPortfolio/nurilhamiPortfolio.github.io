@@ -19,12 +19,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
   border-bottom-left-radius: 0.5em;
   border-top-left-radius: 0.5em; 
   border-top-right-radius: 0.5em;
+  transition: background 0.5s, transform 0.5s;
 
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-top-left-radius: 0.5em; 
+  border-top-right-radius: 0.5em;
 }
 
 .dropContent {
@@ -34,6 +39,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-top-left-radius: 0.5em; 
+  border-top-right-radius: 0.5em;
 }
 
 .dropContent a {
@@ -43,6 +52,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
   font-family:Times New Roman;
   text-decoration: none;
   display: block;
+   border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-top-left-radius: 0.5em; 
+  border-top-right-radius: 0.5em;
 }
 
 .dropContent a:hover {background-color: #004040;}
