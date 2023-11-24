@@ -1,0 +1,52 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 Nov 2023, 8:08:16 PM
+    Author     : USER
+*/
+
+.dropMenu {
+  background-color: #004242;
+  color: white;
+  font-family:Times New Roman;
+  padding: 12px 16px;
+  min-width: 160px;
+  font-size: 20px;
+  border: none;
+  border-bottom-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-top-left-radius: 0.5em; 
+  border-top-right-radius: 0.5em;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropContent {
+  display: none;
+  position: absolute;
+  background-color: darkseagreen;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropContent a {
+  color: white;
+  padding: 12px 16px;
+  font-size:20px; 
+  font-family:Times New Roman;
+  text-decoration: none;
+  display: block;
+}
+
+.dropContent a:hover {background-color: #004040;}
+
+.dropdown:hover .dropContent {display: block;}
+
+.dropdown:hover .dropMenu {background-color: #004040;}
